@@ -1,0 +1,25 @@
+body{
+    background-color:white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border: 5px solid black;
+    height: 800px;
+    width: 800px;
+}
+
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.white{
+    height: 100px;
+    width: 100px;
+    background-color:orange;
+    /* White is Orange for Halloween */
+}
+

@@ -1,0 +1,27 @@
+.container{
+display: table;
+display: block;
+
+}
+
+img{
+    position: absolute;
+   z-index: 1;
+
+
+}
+
+.red{
+    display: inline-block;
+    background-color: red;
+    height: 40px;
+    width: 75em;
+    z-index: 2;
+    
+}
+.white{
+    background-color: white;
+    height: 40px;
+    width: 55em;
+    z-index: 2;
+}
